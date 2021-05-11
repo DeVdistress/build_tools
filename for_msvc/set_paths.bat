@@ -1,0 +1,27 @@
+::SET OPENOCD_PATH=%1
+
+::SET OPENOCD_EXECUTABLE=%OPENOCD_PATH%\%3\
+
+::SET MSYS_BIN=%4\bin
+
+::SET MINGW_USR_BIN=%5\usr\bin
+
+::SET MINGW_BIN=%5\bin
+
+::SET MY_COMPILATOR=%2
+
+SET MY_FAR="C:\Users\UNC-M\AppData\Local\Far Manager x64"
+
+SET MY_DIRECT=%DXSDK_DIR%
+
+::SET JAVA_HOME=%ProgramFiles%\Java\%6
+
+::SET JRE_HOME=%ProgramFiles%\Java\%7
+
+::SET BOOST_ROOT=%8
+
+::SET QTDIR=C:\Qt\Qt5.10.1\5.10.1\msvc2017_64
+
+::SET QWT_ROOT=C:\Qwt-6.1.4
+
+SET PATH=%MY_FAR%;%MY_DIRECT%;%PATH%
