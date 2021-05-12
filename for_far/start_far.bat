@@ -12,7 +12,7 @@ CALL "%VS80COMNTOOLS%\..\..\VC\vcvarsall.bat"
 
 :: PAUSE
 
-CALL c:\disk_p\mount_disk_p.bat
+CALL ..\mount_disk_p.bat
 
 ::PAUSE
 

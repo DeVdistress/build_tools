@@ -5,7 +5,7 @@ CALL "%VS80COMNTOOLS%\..\..\VC\vcvarsall.bat"
 
 CALL set_paths_2005.bat "C:\Python\Python27\" "C:\Program Files (x86)\Microsoft DirectX SDK (March 2009)\"
 
-CALL c:\disk_p\mount_disk_p.bat
+CALL ..\mount_disk_p.bat
 
 PAUSE
 
