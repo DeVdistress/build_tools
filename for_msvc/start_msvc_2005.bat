@@ -1,13 +1,12 @@
 ECHO ON
 
-call set_paths.bat
+CALL set_paths.bat
 
 :: -------------MSVC-------------
-call "%VS80COMNTOOLS%\..\..\VC\vcvarsall.bat"
-::call "%PROGRAMFILES(X86)%\Microsoft Visual Studio 8\VC\vcvarsall.bat"
+CALL "%VS80COMNTOOLS%\..\..\VC\vcvarsall.bat"
 
 :: PAUSE
 
-call c:\disk_p\mount_disk_p.bat
+CALL c:\disk_p\mount_disk_p.bat
 
- start devenv.exe
+START devenv.exe
