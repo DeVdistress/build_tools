@@ -6,6 +6,7 @@ CALL "%PROGRAMFILES(X86)%\Microsoft Visual Studio\2019\Community\Common7\Tools\V
 CALL set_paths_2019.bat "C:\Python\Python27\" "%PROGRAMFILES(X86)%\Microsoft DirectX SDK (June 2010)\"
 
 CALL ..\mount_disk_p.bat
+CALL ..\mount_disk_w.bat
 
 PAUSE
 
