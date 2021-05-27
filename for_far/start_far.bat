@@ -4,13 +4,13 @@ CALL set_paths.bat "C:\Python\Python27\" "C:\Program Files (x86)\Microsoft Direc
 :: call set_paths.bat C:\Python\Python39\
 
 :: -------------MSVC-------------
-CALL "%VS80COMNTOOLS%\..\..\VC\vcvarsall.bat"
-:: CALL "%PROGRAMFILES(X86)%\Microsoft Visual Studio 9.0\VC\vcvarsall.bat" x86
+:: CALL "%VS80COMNTOOLS%\..\..\VC\vcvarsall.bat"
+CALL "%PROGRAMFILES(X86)%\Microsoft Visual Studio 9.0\VC\vcvarsall.bat" x86
 :: CALL "%PROGRAMFILES(X86)%\Microsoft Visual Studio 14.0\Common7\Tools\VsDevCmd.bat"
 :: CALL "%PROGRAMFILES(X86)%\Microsoft Visual Studio\2017\Professional\Common7\Tools\VsDevCmd.bat" -arch=amd64
 :: CALL "%PROGRAMFILES(X86)%\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat"
 
-:: PAUSE
+ PAUSE
 
 CALL ..\mount_disk_p.bat
 
