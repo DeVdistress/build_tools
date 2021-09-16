@@ -1,1 +1,1 @@
-call helpful_script.cmd  Z:\Dev\Project_Douglas_HH\ProjectsEU\build\outputs\bundle\debug\ProjectsEU-debug.aab com.wb.goog.legoswtfa_test my.apks bundletool-all-1.8.0.jar W:\LegoTFA\global\Utils\Windows\Java\jdk-16.0.2
+call helpful_script.cmd  Z:\Dev\Project_Douglas_HH\ProjectsEU\build\outputs\bundle\debug\ProjectsEU-debug.aab com.wb.goog.legoswtfa_test my.apks bundletool-all-1.8.0.jar W:\LegoTFA\global\Utils\Windows\Java\jdk-11.0.12
