@@ -6,10 +6,11 @@ SET PACKAGE_NAME=%2
 
 call adb uninstall %PACKAGE_NAME%
 
-del /F /Q %APKS_NAME%
-
 SET CMD_JAVA=%PATH_TO_JDK%\bin\java.exe -jar %BUNDLE_TOOL_NAME%
+
+del /F /Q %APKS_NAME%
 call %CMD_JAVA% build-apks --bundle=%BUNDLE_NAME% --output=%APKS_NAME% --local-testing
+
 call %CMD_JAVA% install-apks --apks=%APKS_NAME% --adb=adb.exe
 
 :: start app
