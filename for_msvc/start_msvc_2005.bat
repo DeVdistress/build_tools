@@ -12,5 +12,5 @@ PAUSE
 START devenv.exe
 
 :: -------------far-------------
-::cd P:\
-::%COMSPEC% /k "%MY_FAR%\Far.exe mode con lines=9999"
+:: P:\
+:: %COMSPEC% /k "%MY_FAR%\Far.exe mode con lines=9999"

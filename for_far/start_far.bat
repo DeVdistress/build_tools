@@ -16,5 +16,5 @@ CALL ..\mount_disk_p.bat
 
 ::PAUSE
 
-CD P:\
+P:\
 %COMSPEC% /k "%MY_FAR%\Far.exe mode con lines=9999"
