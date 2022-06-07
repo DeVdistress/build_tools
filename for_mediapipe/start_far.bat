@@ -1,6 +1,6 @@
 ECHO ON
 
-CALL set_paths.bat "C:\Python\Python310" "C:\msys64" "C:\msys64\usr\bin" "C:\bazel" "C:\nuget"
+CALL set_paths.bat "C:\Python\Python39" "C:\msys64" "C:\msys64\usr\bin" "C:\bazel" "C:\nuget" "C:\opencv"
 
 :: -------------MSVC-------------
 :: CALL "%VS80COMNTOOLS%\..\..\VC\vcvarsall.bat"
