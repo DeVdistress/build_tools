@@ -10,10 +10,11 @@ P:
 CD P:\MediaPipeUnityPlugin
 
 :: Build for Windows 10
-:: CALL python.exe build.py build --desktop cpu -v
+CALL python.exe build.py build --desktop cpu -v
 
 :: Build for Android
-CALL python.exe build.py build --android arm64 --android_ndk_api_level 21 -vv
+:: This is not work
+:: CALL python.exe build.py build --android arm64 --android_ndk_api_level 21 -vv
 
 PAUSE
 %COMSPEC% /k "%MY_FAR%\Far.exe mode con lines=9999"
