@@ -2,3 +2,4 @@
 /for_android_debug_abb/adb.exe
 /for_android_debug_abb/AdbWinApi.dll
 /for_android_debug_abb/AdbWinUsbApi.dll
+/for_android_debug_abb/*.apk
