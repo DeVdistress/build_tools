@@ -26,4 +26,5 @@ echo Process install apk is starting
 call %CMD_JAVA% install-apks --apks=%APKS_NAME% --adb=adb.exe
 
 :: start app
+:: adb shell am start -n com.wb.goog.legojurassicworld_test/com.wb.goog.legojurassicworld.GameActivity
 call adb shell monkey -p %PACKAGE_NAME% -c android.intent.category.LAUNCHER 1
