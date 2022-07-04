@@ -51,4 +51,8 @@ for dev in list_of_real_devices:
         except CalledProcessError as e:
             print(e.returncode)
 
-print(my_apk_name + " was installed on {}.".format(list_of_real_devices))
+    print("-=-=-=-=-=-")
+    print(my_apk_name + " was installed on {}".format(dev))
+    print("-=-=-=-=-=-")
+
+print("This work has been successfully completed")

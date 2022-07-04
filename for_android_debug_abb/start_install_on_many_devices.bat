@@ -1,1 +1,1 @@
-call C:\Python\Python39\python install_on_many_devices.py 55.apk  com.wb.goog.legojurassicworld_test com.wb.goog.legojurassicworld.GameActivity
+call C:\Python\Python39\python install_on_many_devices.py 57.apk  com.wb.goog.legojurassicworld_test com.wb.goog.legojurassicworld.GameActivity
